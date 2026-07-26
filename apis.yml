@@ -1,8 +1,27 @@
 aid: endowus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/endowus.png
 name: Endowus
-description: Endowus is a company surfaced as a portfolio company of lightspeed-venture-partners, prosus-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Endowus is a Singapore- and Hong Kong-based digital wealth management platform founded in 2017 by
+  Gregory Van and Samuel Rhee. It gives retail, accredited, and private-wealth clients access to
+  low-fee institutional share-class funds, advised and self-directed portfolios, and private-market
+  and alternatives strategies across Cash, CPF (Central Provident Fund), and SRS (Supplementary
+  Retirement Scheme) accounts. Its conflict-free model rebates 100% of trailer fees and fund-manager
+  commissions to clients. Endowus is licensed by the Monetary Authority of Singapore (CMS License
+  101051), serves 300,000+ clients, and manages over US$10 billion in assets. It was added to the API
+  Evangelist network as a portfolio-company lead; the company operates consumer apps but publishes no
+  public developer API or documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/endowus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Wealth Management
+- Fintech
+- Investing
+- Robo-Advisor
+- Financial Services
+- Singapore
+- Hong Kong
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://endowus.com
+- type: Blog
+  url: https://endowus.com/insights
+- type: Support
+  url: https://webflow.endowus.com/getting-started
+- type: SignUp
+  url: https://app.sg.endowus.com/create-account
+- type: Login
+  url: https://app.sg.endowus.com
+- type: TermsOfService
+  url: https://webflow.endowus.com/legal/terms-and-conditions
+- type: Security
+  url: https://endowus.com/security
+- type: VulnerabilityDisclosure
+  url: security/endowus-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/endowus-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
