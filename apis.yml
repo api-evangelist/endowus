@@ -50,7 +50,7 @@ tags:
 - Fintech
 - Investing
 - Robo-Advisor
-- Financial-Services
+- Financial Services
 - Singapore
 - Hong Kong
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Financial Services
 - Singapore
 - Hong Kong
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
